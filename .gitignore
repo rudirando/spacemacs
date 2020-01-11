@@ -27,7 +27,7 @@ elnode/
 var/
 crown/
 *.stackdump
-!bookmarks
+!/cache/bookmarks
 /.my-keybindings.el.swp
 .DS_Store
 tmp/
