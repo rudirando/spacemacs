@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: defdebugprint
+# key: defdbgx
+# --
+import sys
+
+def debug_print(*args):
+	'''
+	Hilfsfunktion zum Ausgeben von Informationen die dann hoffentlich
+	beim Debuggen helfen \o/
+	'''
+	O  = '\033[33m' # orange
+	W  = '\033[0m'  # white (normal)
+	sys.stdout.write(O)
+	print(*args)
+	sys.stdout.write(W)
+$0

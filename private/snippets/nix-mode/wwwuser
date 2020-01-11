@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: wwwuser
+# key: wuserx
+# --
+users.users.${1:name} = {
+  createHome = true;
+  group = "$1";
+  home = "/home/$1";
+  isSystemUser = false;
+  useDefaultShell = true;
+  };
+
+$0

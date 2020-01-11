@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: hat
+# key: hatx
+# --
+\hat{$1}$0

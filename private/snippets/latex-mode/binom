@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: binom
+# key: binx
+# binding: direct-keybinding
+# --
+\binom{$1}{$2} $0

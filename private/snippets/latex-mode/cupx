@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cupx
+# key: cupx
+# --
+\bigcup_{$1}$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: root
+# key: rtx
+# binding: direct-keybinding
+# --
+\sqrt[$2]{$1} $0

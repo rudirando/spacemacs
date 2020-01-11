@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bmx
+# key: bmx
+# --
+\boldsymbol{$1}$0

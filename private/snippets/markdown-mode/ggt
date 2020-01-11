@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ggt
+# key: ggtx
+# --
+\ggt(${1:x},${2:y})$0

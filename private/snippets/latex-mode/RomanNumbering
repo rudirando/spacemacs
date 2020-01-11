@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: RomanNumbering
+# key: romanx
+# --
+%
+\renewcommand{\labelenumi}{\roman{enumi})}
+\renewcommand{\labelenumii}{\alph{enumii})}
+%
+$0

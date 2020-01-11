@@ -1,0 +1,4 @@
+# key: wtxt
+# name: whitetext
+# --
+'\033[0m' $0

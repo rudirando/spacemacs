@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: setcounter
+# key: setcntx
+# --
+%%
+\setcounter{${1:name}}{${2:num}}
+%%

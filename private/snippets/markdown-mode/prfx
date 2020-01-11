@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: prfx
+# key: prfx
+# --
+\begin{prf}${1:[${2:Skizze}]}
+  $0
+\end{prf}

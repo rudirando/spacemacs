@@ -1,0 +1,104 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: newvl
+# key: vorlx
+# binding: direct-keybinding
+# --
+\documentclass[a4paper, 10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+%\usepackage[a4paper,left=3cm,right=2cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+\usepackage{%
+        graphicx,
+        setspace,
+        expdlist,
+        float,
+        textcomp,
+        amssymb,
+        enumitem                % um über [label] hinter itemize symbol zu def.
+        }
+        
+%\usepackage{wrapfig}
+%\usepackage{subfigure}
+%\usepackage{gensymb}
+%\usepackage{ulem}
+
+% Um schreibmaschineschreiben zu können
+\newenvironment{allintypewriter}{\ttfamily}{\par}
+
+
+\begin{document}
+
+% Für andere Zeilenabstände,
+%
+% entweder:
+%
+% \onehalfspace
+%
+% oder:
+%
+% \renewcommand{\baselinestretch}{1.25}
+
+\title{$1}
+\author{}
+\date{}
+
+%
+% Um nicht megaviel Platz zu verlieren maketitle auskommentieren
+%
+\maketitle
+
+%\tableofcontents
+
+%% schicke liste
+%\begin{description}[\setlabelphantom{PHANTOM}]
+%\end{description}
+
+%% Paragraph Indentation
+% \setlength{\parindent}{0cm}
+% \setlength{\parindent}{0.5cm}
+
+
+%% roman numbering !
+%\renewcommand{\labelenumi}{\roman{enumi})}
+%\renewcommand{\labelenumii}{\alph{enumii}}
+%\renewcommand{\labelenumi}{\arabic{enumi}.}
+%\renewcommand{\labelenumii}{\alph{enumii}}
+
+$0
+
+%\setcounter{page}{NUM}
+
+%\thispagestyle{empty}
+
+
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% TIPS & TRICKS
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% ganzer Paragraph Text-style ändern:
+%
+% { \fontsize{}{}\fontseries{m}\fontshape{sl} \selectfont
+% .... 
+% }
+%
+% fontseries:
+% m             Medium
+% b             Bold
+% bx            Bold extended
+% sb            Semi-bold
+% c             Condensed
+%
+% fontshape:
+% upright (normal)   n 
+% italic             it
+% slanted/oblique    sl 
+% small caps         sc
+% upright italic     ui
+% outline            ol 

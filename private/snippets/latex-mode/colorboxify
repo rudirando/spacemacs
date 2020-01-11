@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: colorboxify
+# binding: M-s-5
+# --
+\colorboxed{${1:$$(yas-choose-value '("blue" "red" "green" "yellow"))}}{`yas/selected-text`}$0

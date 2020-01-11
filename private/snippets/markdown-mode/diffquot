@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: diffquot
+# key: dqx
+# --
+\frac{\mathrm{d}${1:f}}{\mathrm{d}${2:x}}$0

@@ -1,0 +1,6 @@
+# key: einx
+# name: einx
+# --
+\begin{${1:$$(yas-choose-value '("eintrag" "eintrag*"))}}{${2:name}}{$3}{${4:umgebung}}
+  $0
+\end{$1}

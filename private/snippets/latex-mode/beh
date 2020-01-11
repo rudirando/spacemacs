@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: beh
+# key: behx
+# --
+\begin{beh}
+  $0
+\end{beh}

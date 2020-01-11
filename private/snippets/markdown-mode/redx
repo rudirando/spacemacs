@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: redx
+# key: redx
+# --
+\textbf{\textcolor{red}{$1}}$0

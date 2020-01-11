@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: dfnx
+# key: dfnx
+# --
+\begin{dfn}${1:[${2:title}]}
+  $0
+\end{dfn}

@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: picture
+# key: picx
+# binding: direct-keybinding
+# --
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{${1:path}}
+  \caption{${2:caption}}
+  ${3:\label{${4:name}}}
+\end{figure}
+$0

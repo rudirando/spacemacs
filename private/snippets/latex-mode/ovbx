@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: ovbx
+# key: ovbx
+# --
+\overbrace{${1:unten}}^{${2:oben}}$0

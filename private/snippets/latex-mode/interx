@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: interx
+# key: interx
+# --
+\intertext{$1}
+$0

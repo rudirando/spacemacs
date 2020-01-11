@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: redtext
+# binding: M-s-1
+# --
+\textcolor{red}{`yas/selected-text`}$0

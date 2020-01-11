@@ -1,0 +1,6 @@
+# key: newmtb
+# name: newmathtagebuch
+# --
+\mytitle{${1:title}}
+
+$0

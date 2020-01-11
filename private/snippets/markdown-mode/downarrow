@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: downarrow
+# key: dwnx
+# binding: direct-keybinding
+# --
+$\downarrow$$0

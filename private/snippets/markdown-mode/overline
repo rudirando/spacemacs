@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: overline
+# key: ovlx
+# --
+\overline{$1}$0

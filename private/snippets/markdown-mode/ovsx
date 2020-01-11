@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: ovsx
+# key: ovsx
+# binding: direct-keybinding
+# --
+\overset{${1:oben}}{${2:unten}}$0

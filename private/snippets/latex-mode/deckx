@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: deckx
+# key: deckx
+# expand-env: ((yas/wrap-around-region 't))
+# --
+\deckblatt{${1:titel}}{$2}
+$0

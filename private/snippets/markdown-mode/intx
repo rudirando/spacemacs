@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# key: intx
+# name: intx
+# --
+\int\limits_{$1}^{$2}$4 \mathrm{d}${3:x}$0

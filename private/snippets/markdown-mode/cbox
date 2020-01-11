@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cbox
+# key: cbox
+# --
+\colorboxed{${1:$$(yas-choose-value '("black" "blue" "red" "green" "yellow"))}}{$2}$0

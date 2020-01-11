@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: usepx
+# key: usepx
+# --
+(use-package ${1:name}
+  :ensure t)$0
+  

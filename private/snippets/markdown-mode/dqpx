@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dqpx
+# key: dqpx
+# --
+\frac{\partial ${1:x}}{\partial ${2:t}}$0

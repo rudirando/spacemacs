@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: vx
+# key: vx
+# --
+\bm{$1}$0

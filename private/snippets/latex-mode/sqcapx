@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sqcapx
+# key: sqcapx
+# --
+\bigsqcap_{$1}$0

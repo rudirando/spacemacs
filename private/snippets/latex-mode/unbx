@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: unbx 
+# key: unbx
+# binding: direct-keybinding
+# --
+\underbrace{${1:oben}}_{${2:unten}}$0

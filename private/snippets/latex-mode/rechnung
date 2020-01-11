@@ -1,0 +1,72 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: rechnung
+# key: rechnungx
+# binding: direct-keybinding
+# --
+\documentclass[backaddress=true]{scrlttr2}
+\usepackage[utf8x]{inputenc}
+\usepackage{color,calc,ngerman,mathptmx}
+\usepackage{eurosym}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setkomavar{fromname}{Friedemann Maurer}
+\setkomavar{fromaddress}{Kapellenweg 5\38667 Bad Harzburg}
+\setkomavar{subject}{Rechnung Nr. ${1:nr/jj}}
+\setkomavar{place}{Bad Harzburg}
+
+
+
+\firsthead{ \null\hfill
+  \parbox[t][\headheight][t]{6cm}{%
+    \raggedright
+    \color[gray]{.3}%
+    \usekomavar{fromname}
+    Kapellenweg 5
+    38667 Bad Harzburg \\[\baselineskip]
+    % \usekomavar*{fromphone} [\baselineskip]
+    E-Mail: friede.mann@posteo.de \\[\baselineskip]
+    Steuernummer: 21/128/08162 \\[\baselineskip]
+  }%
+}
+
+\setkomavar{location}{
+  \\[\baselineskip]
+  \\[\baselineskip]
+  % \large{Rechnung Nr. $1}
+}
+
+\begin{document}
+\setlength{\parindent}{0pt}
+% If you want headings on subsequent pages,
+% remove the [yas] elisp error: Symbol's function definition is void: end-of-file%'' on the next line:
+% \pagestyle{headings}
+
+\begin{letter}{${2:addr1} \\ ${3:addr2} \\ ${4:a1ddr3}}
+  \opening{}
+  % 
+  \renewcommand{\arraystretch}{1.3}
+  % 
+  \begin{longtable}{|c|p{0.48\textwidth}|l|l|r|}
+$0    \hline
+    \textbf{Pos} & \textbf{Bezeichnung} &\textbf{Menge} &
+    \textbf{Einzelpreis} & \textbf{Gesamtpreis} \\ \hline
+    1 & bla & blub & blsa & sadasd \\ \hline
+    \multicolumn{4}{r}{\textbf{Zu zahlender Gesamtbetrag}} &
+    \multicolumn{1}{r}{\textbf{\EUR{1162,00}}}
+  \end{longtable}
+  ~\\[\baselineskip]
+  \textbf{Im ausgewiesenen Betrag ist gemäß § 19 UStG keine Umsatzsteuer
+    enthalten.} \\[\baselineskip]
+  \textbf{Zahlbar bis tt.mm.jjjj. \\
+    Bankverbindung:}
+   ~ \\[\baselineskip]
+   \textbf{Zahlungsempfänger}: \\
+   \texttt{Friedemann Maurer}\\
+   \texttt{IBAN: DE02430609677915597900, BIC: GENODEM1GLS}\\
+   \texttt{Bank: GLS Gemeinschaftsbank Bochum}
+
+  \end{letter}
+\end{document}

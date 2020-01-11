@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: singlefig
+# key: singlefig
+# --
+<figure>
+    <a href="{{ site.url }}{{ site.baseurl }}/images/${1:file}.jpg"><img src="{{ site.url }}{{ site.baseurl }}/images/$1-low.jpg"></a>
+    <figcaption>
+        ${2:caption}
+    </figcaption>
+</figure>
+$0

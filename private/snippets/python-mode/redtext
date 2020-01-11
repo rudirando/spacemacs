@@ -1,0 +1,4 @@
+# key: rtxt
+# name: redtext
+# --
+'\033[31m' $0

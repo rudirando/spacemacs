@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: kommandox
+# key: kommandox
+# --
+#!/usr/bin/env python3
+import sys
+
+$0
+
+if __name__=="__main__":
+	if len(sys.argv) != 3:
+		print("so nicht!")
+		exit()

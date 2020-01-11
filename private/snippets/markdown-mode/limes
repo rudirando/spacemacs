@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: limes
+# key: limx
+# binding: direct-keybinding
+# --
+\lim\limits_{$1 \to ${2:\infty} } $0 

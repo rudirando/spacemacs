@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ArabicNumbering
+# key: arabx
+# --
+%
+\renewcommand{\labelenumi}{\arabic{enumi})}
+\renewcommand{\labelenumii}{\alph{enumii})}
+%
+$0

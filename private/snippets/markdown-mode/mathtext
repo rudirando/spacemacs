@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: mathtext
+# key: txtx
+# binding: direct-keybinding
+# --
+\text{$1} $0

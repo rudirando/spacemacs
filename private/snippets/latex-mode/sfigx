@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: sfigx
+# key: sfigx
+# --
+\begin{figure}[htbp]
+  \centering
+  \subfloat[][${1:Beschriftung}]{\includegraphics[width=0.3\textwidth,keepaspectratio]{${2:datei}}}
+  \subfloat[][${3:Beschriftung}]{\includegraphics[width=0.3\textwidth,keepaspectratio]{${4:datei}}}
+  \caption{text}
+  \label{abb}
+\end{figure}
+
+\FloatBarrier

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: normalteiler
+# key: ntx
+# --
+\trianglerighteq $0

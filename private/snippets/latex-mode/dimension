@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: dimension
+# key: dimx
+# --
+\dim${1:_${2:K}}($3)$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: rklx
+# key: rklx
+# binding: direct-keybinding
+# --
+\left( $0 \right)

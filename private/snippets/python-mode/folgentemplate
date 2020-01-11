@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: folgentemplate
+# key: folgentemplate
+# --
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+
+import sys
+import math
+from math import sqrt
+
+# um ganz normal mit printf arbeiten zu können
+def printf(format, *args):
+    sys.stdout.write(format % args)
+
+at=(sqrt(5.0)-1.0)/2.0
+
+an = 0.0
+
+printf("%f\n", an - at)
+
+for i in range(20):
+    an = 1.0-1.0/(2+an)
+    printf("%.16f\n", an - at)

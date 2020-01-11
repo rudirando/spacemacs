@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: errx
+# key: errx
+# --
+\sigma_{${1:f}} = \sqrt{\sigma_{${2:x}}^2 \left( \frac{\partial $1}{\partial $2} \right)^2 + \sigma_{${3:y}}^2 \left( \frac{\partial $1}{\partial $3} \right)^2}

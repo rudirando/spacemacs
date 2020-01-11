@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: glx
+# key: glx
+# binding: direct-keybinding
+# --
+\glqq ${1:whatever}\grqq $0

@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: tabx
+# key: tabx
+# --
+\begin{table}[H]
+  \centering$0
+  \begin{tabular}{l|c}
+    \hline
+      &   \\
+    \hline \hline
+      &   \\
+   \hline
+      &   \\
+    \hline
+  \end{tabular}
+  \caption{}
+  \label{t:$1}
+\end{table}

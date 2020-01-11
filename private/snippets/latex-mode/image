@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bild
+# key: bix
+# --
+\bild($1)$0

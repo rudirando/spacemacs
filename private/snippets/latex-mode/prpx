@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: prpx
+# key: prpx
+# --
+\begin{prp}
+  $0
+\end{prp}

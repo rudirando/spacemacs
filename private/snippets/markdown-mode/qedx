@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: qedx
+# key: qedx
+# --
+\flushright{$\Box$}\\
+\flushleft

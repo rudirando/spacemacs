@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: rang
+# key: rngx
+# --
+\rang($1)$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: spx
+# key: spx
+# --
+\mathrm{span}_{$1}($2)$0

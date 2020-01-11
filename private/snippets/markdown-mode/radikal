@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: radikal
+# key: radx
+# --
+\rad(${1:V})$0
