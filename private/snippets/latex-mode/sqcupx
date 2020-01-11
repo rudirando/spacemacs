@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sqcupx
+# key: sqcupx
+# --
+\bigsqcup_{$1}$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: kern
+# key: kerx
+# --
+\ker($1)$0

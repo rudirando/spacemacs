@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: lsgx
+# key: lsgx
+# --
+\text{Lös}($1)$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: href
+# key: hrfx
+# binding: direct-keybinding
+# --
+\hyperref[${2:label}]{${1:text}}$0

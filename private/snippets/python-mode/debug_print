@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: debug_print
+# key: dbgx
+# --
+debug_print($0)

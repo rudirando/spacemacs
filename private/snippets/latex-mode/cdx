@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: cdx
+# key: cdx
+# binding: direct-keybinding
+# --
+\cdots

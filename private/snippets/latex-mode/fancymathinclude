@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fancymathinclude
+# key: fancy
+# --
+\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/fancymathe}

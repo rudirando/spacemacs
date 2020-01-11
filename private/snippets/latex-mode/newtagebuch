@@ -1,0 +1,11 @@
+# key: newtb
+# name: newtagebuch
+# --
+\mytitle{${1:title}}
+
+$0
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../tb"
+%%% End:

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: mfp
+# key: fpx
+# --
+\mathbb{F}_{${1:p}}$0

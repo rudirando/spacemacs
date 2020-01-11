@@ -1,0 +1,4 @@
+# key: citx
+# name: citx
+# --
+\cite[${1:}]{$2}$0

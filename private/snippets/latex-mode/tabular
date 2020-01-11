@@ -1,0 +1,29 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: tabular
+# key: tabx
+# binding: direct-keybinding
+# --
+\begin{table}[H]
+%
+%% für mehr luft inner tabelle
+%
+%    \renewcommand{\arraystretch}{1.5}
+%
+%% für absolut absolute spaltenbreiten
+%
+%    \begin{tabular}{ >{\centering}p{0.35\textwidth}<{\centering} | 
+%        >{\centering}p{0.64\textwidth}<{\centering}}
+
+  \centering
+  \begin{tabular}{l|c|c|c|c}$0
+    \hline
+      &   &   &   &   \\
+    \hline \hline
+      &   &   &   &  \\
+   \hline
+      &   &   &   &  \\
+    \hline
+  \end{tabular}
+%  \caption{atatat}
+%  \label{t:at}
+\end{table}

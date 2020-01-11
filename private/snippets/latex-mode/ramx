@@ -1,0 +1,6 @@
+# key: ramx
+# name: ramx
+# binding: s-M-e
+# --
+\input{ram-files/`yas-selected-text`.tex}
+`(find-file-other-window (concat (file-name-directory buffer-file-name) "ram-files/" yas-selected-text ".tex"))`

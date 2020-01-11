@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bspx
+# key: bspx
+# --
+\begin{bsp}${1:[${2:title}]}
+  $0
+\end{bsp}

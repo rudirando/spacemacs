@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: txt
+# key: txt
+# binding: direct-keybinding
+# --
+\text{$1}$0

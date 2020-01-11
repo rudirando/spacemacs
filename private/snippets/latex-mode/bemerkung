@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: bemerkung
+# key: bemx
+# --
+\begin{bem}
+  $0
+\end{bem}

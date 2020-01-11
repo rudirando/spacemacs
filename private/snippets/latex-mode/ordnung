@@ -1,0 +1,4 @@
+# key: ordx
+# name: ordnung
+# --
+\ord_{${1:G}}($2)$0

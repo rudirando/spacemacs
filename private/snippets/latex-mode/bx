@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: bx
+# key: bx
+# --
+\bar{${1:x}}$0

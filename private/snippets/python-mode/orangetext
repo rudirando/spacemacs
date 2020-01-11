@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: orangetext
+# key: otxt
+# --
+'\033[33m' $0

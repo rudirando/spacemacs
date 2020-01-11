@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: frac
+# key: frx
+# --
+\frac{${1:num}}{${2:denom}}$0

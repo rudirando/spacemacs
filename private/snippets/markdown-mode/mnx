@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: mnx
+# key: mnx
+# binding: direct-keybinding
+# --
+\mathbb{N}

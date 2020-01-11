@@ -1,0 +1,80 @@
+# key: stddocx
+# name: stddocx
+# --
+########################################################################
+###
+## Aktuelle Standard-Plotfile
+#
+
+reset
+
+# set term cairolatex *input* und ohne pdf (wird dann eps) für
+# einbindung ins Dokument
+set terminal cairolatex pdf standalone solid lw 2 header\
+"\\usepackage{amsmath}" size 15cm,10cm
+set output '${1:plot}.tex'
+
+### fette datenpunkte ?!
+set pointsize 1.5
+$0
+# set style data linespoints
+
+set grid
+
+### verstellungen an der legende
+# set key top right
+set key spacing 2.0
+## gute key-config für pslatex-plot mit width -2 macht man die box um
+## die legende a weng enger (dobje!)
+#
+# set key at 11,1.18 box lw 0.5 width -2
+
+### nullinien anzeigen !
+
+set xzeroaxis
+set yzeroaxis
+
+### auflösung der kurve (falls mal wieder eckig -> hoeher!)
+
+set samples 1000
+
+### funktion zum darst. von werten im titel
+
+# für Latex mathmode tickmarks ;)
+
+###
+## Titler Funktion für fit-Funktionen
+#
+# titler(a,b)=sprintf("$f(x)=%f \\cdot x + %f$", a, b)
+
+###
+## Fitten
+#
+#f1(x)=a1*x+b1
+#fit f1(x) "../data/4.dat" u (log($1)):(log($4)):7 via a1,b1
+
+###
+## Exp-Achsenbeschriftung
+#
+#set format xy "$%g$"
+
+set xlabel '$x$'
+set ylabel '$f(x)$'
+
+set xrange [:]
+set yrange [:]
+
+set title 'Blabla $f(x)=\sin(x)$'
+
+###
+## Log-log-Plot mit Datenmanipulation
+#
+# plot \
+# '../data/4.dat' u (log($1)):(log($5)):(log($5-$6)):(log($5+$6)) t "$\\ln(f_{\\text{theo}})$" w yerrorbars,\
+# f2(x) t titler(a2,b2)
+
+
+set output
+
+# kompiliert das ganze gleich... wenn's denn klappt
+!pdflatex $1.tex

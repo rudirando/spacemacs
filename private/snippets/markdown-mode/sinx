@@ -1,0 +1,4 @@
+# key: sinx
+# name: sinx
+# --
+\sin($1)$0

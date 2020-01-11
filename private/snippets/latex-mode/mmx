@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: math2
+# key: mmx
+# binding: direct-keybinding
+# --
+$$ $0 $$

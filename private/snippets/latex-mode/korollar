@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: korollar
+# key: korx
+# --
+\begin{kor}${1:[${2:title}]}
+  $0
+\end{kor}

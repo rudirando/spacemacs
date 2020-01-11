@@ -1,0 +1,20 @@
+# key: hyperrefx
+# name: hyperrefinclude
+# --
+\usepackage[
+unicode=true,
+pdfauthor={${1:Friedemann Maurer}},
+pdftitle={${2:title}},
+pdfsubject={${3:subject}},
+pdfcreator={${4:anonymous}}
+pdfkeywords={${5:keywords}}
+]{hyperref}
+
+\hypersetup{
+  colorlinks,
+  linkcolor={red!90!black},
+  citecolor={blue!50!black},
+  urlcolor={blue!80!black}
+}
+
+$0

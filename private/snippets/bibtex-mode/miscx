@@ -1,0 +1,11 @@
+# key: miscx
+# name: miscx
+# --
+@misc{${1:name},
+author="${2:author}",
+title="${3:title}",
+url="${4:url}",
+year=${5:year},
+note="Zugriff: ${6:date}"
+}
+$0

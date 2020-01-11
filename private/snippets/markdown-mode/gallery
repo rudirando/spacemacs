@@ -1,0 +1,8 @@
+# key: galx
+# name: gallery
+# --
+- url: /images/${1:file}.jpg
+  image_path: /images/$1-low.jpg
+  alt: "${2:alt text}"
+  title: "${3:title}"
+$0

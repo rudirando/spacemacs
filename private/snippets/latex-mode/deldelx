@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: deldelx
+# key: deldx
+# --
+\frac{\partial $1}{\partial $2} $0

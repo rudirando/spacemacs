@@ -1,0 +1,35 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: docx
+# key: docx
+# binding: direct-keybinding
+# --
+\documentclass[a4paper, 10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+%\usepackage[a4paper,left=3cm,right=2cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+\usepackage{%
+        graphicx,
+        setspace,
+        expdlist,
+        float,
+        textcomp,
+        xcolor,    % für \textcolor{color}{txt}
+        enumitem   % um über [label] hinter itemize symbol zu def.
+        }
+% Für Standard Mathe-Setup
+\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/fancymathe}
+\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/nobox}
+
+\begin{document}
+
+\title{$1}
+\author{}
+\date{}
+%
+\maketitle
+%
+$0
+
+\end{document}

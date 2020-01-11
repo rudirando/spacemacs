@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pmx
+# key: pmx
+# --
+\begin{pmatrix} $0 \end{pmatrix}

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: tocx
+# key: tocx
+# --
+  \flushright{\hyperref[toc]{toc}}\
+  \flushleft

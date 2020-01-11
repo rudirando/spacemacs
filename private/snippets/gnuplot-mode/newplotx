@@ -1,0 +1,67 @@
+# key: newplotx
+# name: newplotx
+# --
+###
+## Aktuelle Standard-Plotfile
+#
+reset
+
+# Für funktionierende Umlaute
+set encoding utf8
+
+# set term cairolatex *input* und ohne pdf (wird dann eps) für
+# einbindung ins Dokument
+set terminal cairolatex pdf standalone dashed transparent lw 2 header \
+"\\\usepackage{amsmath}\n\\\usepackage{color}\n\\\newcommand{\\\sm}[0]{\\\small}\n\\\newcommand{\\\hl}[1]{\\\setlength{\\\fboxsep}{0.75pt}\\\colorbox{white}{#1}}" size 15cm,10cm
+
+set output '${1:name}.tex'
+$0
+### fette datenpunkte ?!
+# set pointsize 1.5
+
+# set style data linespoints
+
+set grid
+#set grid xtics ytics ls 3 lw 1 lc rgb 'gray'
+
+### nullinien anzeigen !
+
+set xzeroaxis
+set yzeroaxis
+
+### auflösung der kurve (falls mal wieder eckig -> hoeher!)
+
+set samples 100
+
+### Titler Funktion für fit-Funktionen
+#
+# titler(a,b)=sprintf("\$f(x)=%f \\\cdot x + %f\$", a, b)
+
+### Fitten
+#
+# f1(x)=a1*x+b1
+# fit f1(x) "../data/4.dat" u (log(\$1)):(log(\$4)):7 via a1,b1
+
+### Exp-Achsenbeschriftung
+#
+#set format xy "\$%g\$"
+
+# essential linestyles für datenpunkte
+set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 0.3   # --- blue
+set style line 2 lc rgb '#FF0000' lt 1 lw 2 pt 7 ps 0.3   # --- red
+set style line 3 lc rgb '#00FF00' lt 1 lw 2 pt 7 ps 0.3   # --- green
+
+set xlabel '\$x\$'
+set ylabel '\$f(x)\$'
+
+set xrange [:]
+set yrange [:]
+
+set title '$1'
+
+plot bla
+
+set output
+
+# kompiliert das ganze gleich... wenn's denn klappt
+!pdflatex $1.tex

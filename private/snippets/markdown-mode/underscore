@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: underscore
+# binding: M-_
+# --
+_{$1}$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: quad
+# key: qx
+# binding: direct-keybinding
+# --
+\quad $0

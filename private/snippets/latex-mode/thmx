@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: thmx
+# key: thmx
+# --
+\begin{thm}${1:[${2:title}]}
+  $0
+\end{thm}

@@ -1,0 +1,55 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: brief
+# key: briefx
+# binding: direct-keybinding
+# --
+\documentclass[version=last,backaddress=true,firstfoot=off,enlargefirstpage=on]{scrlttr2}
+\usepackage[utf8x]{inputenc}
+\usepackage{color,calc,ngerman,mathptmx}
+\usepackage{eurosym}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\setkomavar{fromname}{Friedemann Maurer}
+\setkomavar{fromaddress}{Beethovenstr. 24\\\37085 Göttingen}
+\setkomavar{subject}{${1:betreff}}
+\setkomavar{place}{Göttingen}
+
+\firsthead{\null\hfill
+  \parbox[t][\headheight][t]{6cm}{%
+   \raggedright
+   \color[gray]{.3}%
+   \usekomavar{fromname}\\\
+   Beethovenstr. 24\\\
+   37085 Göttingen\\\[\baselineskip]
+ %  \usekomavar*{fromphone}\\\[\baselineskip]
+   E-Mail: friede.mann@posteo.de\\\
+   Telefon: 01783294466\\\[\baselineskip]
+   }%
+}
+
+
+
+\begin{document}
+\setlength{\parindent}{0pt}
+
+% \pagestyle{headings}
+
+\begin{letter}{${2:addr1} \\\ ${3:addr2} \\\ ${4:addr3} }
+\opening{}
+\renewcommand{\arraystretch}{1.3}
+
+${5:Anrede},\\\~\\\
+%
+$0
+
+\vspace{2cm}
+Mit freundlichen Grüßen,\\\~\\\
+Friedemann Maurer.
+
+%\closing{}
+
+\end{letter}
+\end{document}

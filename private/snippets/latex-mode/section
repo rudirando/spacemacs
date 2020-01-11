@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: section
+# key: secx
+# binding: direct-keybinding
+# --
+\\${1:$$(yas-choose-value '("section*" "subsection*" "subsubsection*" "section" "subsection" "subsubsection"))}{${2:name}}
+%
+$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: underset
+# key: unsx
+# --
+\underset{${1:unten}}{${2:oben}}$0

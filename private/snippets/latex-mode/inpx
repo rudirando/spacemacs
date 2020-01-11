@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: inpx
+# key: inpx
+# --
+\input{$1}$0

@@ -1,0 +1,4 @@
+# name: potenz
+# binding: M-*
+# --
+^{$1}$0

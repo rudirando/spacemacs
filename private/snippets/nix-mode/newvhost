@@ -1,0 +1,15 @@
+# key: newvhost
+# name: newvhost
+# --
+{
+  # $0num.math SSL
+  hostName = "math.uni-goettingen.de";
+  enableSSL = true;
+  documentRoot = "/var/www/math";
+  serverAliases = [ "math.uni-goettingen.de" ];
+  
+  listen = [{ port = 443; }];
+  
+  extraConfig = ''
+  '';
+}

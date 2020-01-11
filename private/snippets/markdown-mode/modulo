@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: modulo
+# key: modx
+# --
+\mod ${1:p}$0

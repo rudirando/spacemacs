@@ -1,0 +1,5 @@
+# key: arx
+# name: array
+# --
+array([$1])
+$0

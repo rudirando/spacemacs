@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: bewx
+# key: bewx
+# --
+\begin{description}
+  \item[\textbf{Beh.:}] $0
+  \item[\textbf{Bew.:}]  
+\end{description}

@@ -1,0 +1,4 @@
+# key: dx
+# name: dx
+# --
+\dot{${1:x}}$0

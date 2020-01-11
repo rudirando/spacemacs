@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: gatx
+# key: gatx
+# --
+\begin{gather*}
+  $0
+\end{gather*}

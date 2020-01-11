@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: autoref
+# key: arfx
+# binding: direct-keybinding
+# --
+\autoref{${1:name}}$0

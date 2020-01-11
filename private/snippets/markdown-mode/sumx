@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: sumx
+# key: sumx
+# binding: direct-keybinding
+# --
+\sum_{$1}^{$2}$0

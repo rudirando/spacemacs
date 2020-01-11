@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cosx
+# key: cosx
+# --
+\cos($1)$0

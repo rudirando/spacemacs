@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cref
+# key: crfx
+# --
+\cref{$1}$0
