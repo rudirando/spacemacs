@@ -7,6 +7,7 @@ eproject.lst
 \#*
 .places
 .cache
+!/.cache/bookmarks
 /eww-bookmarks
 eshell/history
 .emacs.desktop
@@ -27,7 +28,6 @@ elnode/
 var/
 crown/
 *.stackdump
-!.cache/bookmarks
 /.my-keybindings.el.swp
 .DS_Store
 tmp/
