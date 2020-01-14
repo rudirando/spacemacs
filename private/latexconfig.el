@@ -114,3 +114,17 @@
         (append
          latex-math-preview-mathematical-symbol-datasets
          moin-schois meinematrizen)))
+
+;; TAB-cyclen im Outline mode.. oder so.
+(use-package latex-extra
+  :ensure t
+  :init
+  ;; ;; Um Warnung beim Start abzuschalten
+  ;; (defvar latex-extra-mode)
+  :hook (LaTeX-mode . latex-extra-mode)
+  ;; :config
+  ;; (add-hook 'LaTeX-mode-hook #'latex-extra-mode)
+  ;; um auch itemize etc. cyclen zu können
+  ;;(setq TeX-outline-extra '(("\beginitemize" 2)))
+  )
+                                     ;ende use-package
