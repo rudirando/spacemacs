@@ -20,7 +20,8 @@
         }
 % Für Standard Mathe-Setup
 \usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/fancymathe}
-\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/nobox}
+\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/nobox-docnum-allnum}
+%\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/nobox}
 
 \begin{document}
 
