@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("notizen"
+(("root@web"
+ (filename . "/ssh:root@web:/root/")
+ (front-context-string . "dotfiles-stow\n  ")
+ (rear-context-string . "96 Jan 14 12:32 ")
+ (position . 381))
+("notizen"
  (filename . "~/org/notizen.org")
  (front-context-string . "#+TITLE: Notizen")
  (rear-context-string)
