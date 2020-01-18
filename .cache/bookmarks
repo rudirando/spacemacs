@@ -1,8 +1,13 @@
-;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("latex-snippets"
+(("admin-snippets"
+ (filename . "~/org/admin-snippets.org")
+ (front-context-string . "git merge & conf")
+ (rear-context-string . "  $ git push\n** ")
+ (position . 3181))
+("latex-snippets"
  (filename . "~/Dokumente/ZZZ_Masterdateien/latex-snippets.tex")
  (front-context-string . "%%%%%%%%%%%%%%%%")
  (rear-context-string)
