@@ -1,20 +1,17 @@
-;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-<<<<<<< HEAD
 (("latex-snippets"
  (filename . "~/Dokumente/ZZZ_Masterdateien/latex-snippets.tex")
  (front-context-string . "%%%%%%%%%%%%%%%%")
  (rear-context-string)
  (position . 1))
-=======
-(("root@web"
+("root@web"
  (filename . "/ssh:root@web:/root/")
  (front-context-string . "dotfiles-stow\n  ")
  (rear-context-string . "96 Jan 14 12:32 ")
  (position . 381))
->>>>>>> 6b8600d1b7230777b79228c17ff65be56720a5ac
 ("notizen"
  (filename . "~/org/notizen.org")
  (front-context-string . "#+TITLE: Notizen")
