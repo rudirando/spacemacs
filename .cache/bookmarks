@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("admin-snippets"
+(("work"
+ (filename . "~/org/work.org")
+ (front-context-string . "rstellen\n*** NEX")
+ (rear-context-string . "in nixpkgs-nam e")
+ (position . 2089))
+("admin-snippets"
  (filename . "~/org/admin-snippets.org")
  (front-context-string . "git merge & conf")
  (rear-context-string . "  $ git push\n** ")
