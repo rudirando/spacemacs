@@ -24,7 +24,7 @@
  (position . 1))
 ("org-capture-last-stored"
  (filename . "~/org/projis.org")
- (front-context-string . "** TODO gitarren")
+ (front-context-string . "** Den Schnellsp")
  (rear-context-string . "adder schreiben\n")
  (position . 186))
 ("olddotemacs"
