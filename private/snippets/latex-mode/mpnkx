@@ -1,4 +1,5 @@
-# key: mpnkx
-# name: mpnkx
+# -*- mode: snippet -*-
+# name:mkx
+# key:mkx
 # --
-\mathbb{P}^{${1:n}}(${2:K})$0
+\mathbb{K}
