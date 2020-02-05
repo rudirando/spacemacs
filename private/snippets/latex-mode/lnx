@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: lnx
+# key: lnx
+# --
+\ln($1)$0

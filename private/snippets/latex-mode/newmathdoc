@@ -1,0 +1,39 @@
+# -*- mode: snippet -*-
+# name: newmathdoc
+# key: mdocx
+# --
+\documentclass[a4paper, 10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+\usepackage[a4paper,left=2.5cm, right=3cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+\usepackage{%
+graphicx,
+setspace,
+expdlist,
+float,
+textcomp,
+xcolor,    % für \textcolor{color}{txt}
+enumitem   % um über [label] hinter itemize symbol zu def.
+}
+% Für Standard Mathe-Setup
+\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/fancymathe}
+\usepackage{/home/frido/Dokumente/ZZZ_Masterdateien/nobox-allnum-secnum-indent}
+
+\usepackage[adobe-utopia]{mathdesign}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\title{${1:title}}
+\author{}
+\date{}
+%
+\maketitle
+%
+\setlength{\parindent}{0cm}
+
+$0
+
+\end{document}

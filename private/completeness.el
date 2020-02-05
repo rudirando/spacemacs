@@ -19,8 +19,9 @@
   ;;  ((derived-mode-p 'magit-mode)
   ;;   (magit-section-toggle (magit-current-section))))
   (cond
-   ((minibufferp)
-    (ido-complete))
+   ((boundp 'ido-cur-item) (ido-complete))
+   ;; ((minibufferp)
+    ;; (ido-complete))
    ((derived-mode-p 'magit-mode)
     (magit-section-toggle (magit-current-section)))
    (t
