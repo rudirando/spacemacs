@@ -1,4 +1,4 @@
 # name: mathex
 # binding: M-s-4
 # --
-$`yas/selected-text`$$0
+$`yas-selected-text`$

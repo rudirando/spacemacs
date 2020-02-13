@@ -7,8 +7,9 @@
 (bind-key (kbd "M-s-x")  'my-latex-quick-compile )
 (bind-key (kbd "M-s-i")  'latex-math-preview-insert-mathematical-symbol)
 
-(setq TeX-view-program-list '(("zathura" "zathura %o")))
-(setq TeX-view-program-selection '((output-pdf "zathura")))
+;; (setq TeX-view-program-list '(("zathura" "zathura %o")))
+;; (setq TeX-view-program-selection '((output-pdf "zathura")))
+(setq TeX-view-program-selection '((output-pdf "Zathura")))
 (setq-default TeX-PDF-mode t)
 (setq TeX-global-PDF-mode t)
 (setq TeX-auto-save t) ; Enable parse on save.
@@ -16,6 +17,12 @@
 (setq TeX-show-compilation nil)
 (setq LaTeX-indent-level 2)
 (setq LaTeX-item-indent 0)
+(setq TeX-parse-self t) ; Enable parse on load.
+(setq-default TeX-master nil) ; Query for master file.
+
+(add-hook 'LaTeX-mode-hook 'TeX-source-correlate-mode)
+(setq TeX-source-correlate-method 'synctex)
+(setq TeX-source-correlate-start-server t)
 
 (defun LaTeX-my-leftright (charopen charclose)
   "Inserts the pattern '\leftC  \rightD' where C is the open input char and D the closed, and places the cursor in the center."

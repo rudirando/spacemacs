@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: holoviews
+# key: holox
+# --
+import holoviews as hv
+hv.extension('bokeh')
