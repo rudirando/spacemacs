@@ -1,0 +1,5 @@
+# key: stdfigx
+# name: standardfigure
+# --
+fig = plt.figure(facecolor=[1,1,1,1], figsize=(12, 8))
+plt.grid()
